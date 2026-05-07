@@ -31,7 +31,6 @@ pipeline {
                     echo "Training model..."
                     python3 train.py
                     echo "Training complete!"
-                    cat metrics.json
                 '''
             }
         }
